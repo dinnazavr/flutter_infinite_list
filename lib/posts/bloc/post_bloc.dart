@@ -75,4 +75,5 @@ class PostBloc extends Bloc<PostEvent, PostState> {
     }
     throw Exception('error fetching posts');
   }
+  
 }

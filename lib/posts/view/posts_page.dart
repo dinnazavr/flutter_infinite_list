@@ -13,6 +13,7 @@ class PostsPage extends StatelessWidget {
       body: BlocProvider(
         create: (_) => PostBloc(httpClient: http.Client())..add(PostFetched()),
         child: const PostsList(),
+        
       ),
     );
   }

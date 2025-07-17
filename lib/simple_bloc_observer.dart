@@ -18,5 +18,6 @@ class SimpleBlocObserver extends BlocObserver {
   void onError(BlocBase<dynamic> bloc, Object error, StackTrace stackTrace) {
     print(error);
     super.onError(bloc, error, stackTrace);
+    
   }
 }

@@ -64,5 +64,6 @@ class _PostsListState extends State<PostsList> {
     final maxScroll = _scrollController.position.maxScrollExtent;
     final currentScroll = _scrollController.offset;
     return currentScroll >= (maxScroll * 0.9);
+    
   }
 }

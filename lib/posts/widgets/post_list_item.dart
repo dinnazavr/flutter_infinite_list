@@ -15,6 +15,7 @@ class PostListItem extends StatelessWidget {
       isThreeLine: true,
       subtitle: Text(post.body),
       dense: true,
+      
     );
   }
 }

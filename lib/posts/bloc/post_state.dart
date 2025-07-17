@@ -32,4 +32,5 @@ final class PostState extends Equatable {
 
   @override
   List<Object> get props => [status, posts, hasReachedMax];
+  
 }
